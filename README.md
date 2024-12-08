@@ -23,11 +23,12 @@ npm install
 
 1. Update the database connection details in the `database.ts` file. Example:
     ```
-    DB_HOST=localhost
-    DB_PORT=5432
-    DB_USER=your_username
-    DB_PASSWORD=your_password
-    DB_NAME=your_db_name
+    type: "postgres",
+    host: "localhost",
+    port: 5432,
+    username: "your_username",
+    password: "your_password",
+    database: "your_db_name",
     ```
 ### Running the Application
 
